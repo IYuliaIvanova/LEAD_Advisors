@@ -182,6 +182,9 @@ $colorBgFooter: #162c4e;
   }
 
   &__text {
+    display: inline-block;
+    max-width: 423px;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -282,6 +285,8 @@ $colorBgFooter: #162c4e;
   }
 
   .text-submit {
+    display: block;
+    max-width: 100%;
     margin-bottom: 10px;
 
     @media (max-width: 870px) {

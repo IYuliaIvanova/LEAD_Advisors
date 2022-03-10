@@ -178,6 +178,8 @@
 }
 
 .wrapper__text {
+  display: inline-block;
+  max-width: 423px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -300,6 +302,8 @@
 }
 
 .wrapper .text-submit {
+  display: block;
+  max-width: 100%;
   margin-bottom: 10px;
 }
 
