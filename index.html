@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lead Advisors</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="container">
+        <a class="wrapper__link-logo" href="#">
+          <img class="wrapper__img-logo" src="img/logo.svg" alt="" />
+        </a>
+        <div class="wrapper__item-text">
+          <h1 class="wrapper__title">Under Construction</h1>
+          <p class="wrapper__text">
+            We're making lots of improvements and will be back soon
+          </p>
+        </div>
+        <div id="timer" class="wrapper__timer">
+          <div class="wrapper__number">
+            <span class="wrapper__time days"></span>
+            <div class="wrapper__time-text">
+              <span id="daysTxt" class="text">Days</span>
+            </div>
+          </div>
+          <div class="wrapper__number">
+            <span class="wrapper__time hours"></span>
+            <div class="wrapper__time-text">
+              <span id="hoursTxt" class="text">Hours</span>
+            </div>
+          </div>
+          <div class="wrapper__number">
+            <span class="wrapper__time minutes"></span>
+            <div class="wrapper__time-text">
+              <span id="minutesTxt" class="text">Minutes</span>
+            </div>
+          </div>
+          <div class="wrapper__number">
+            <span class="wrapper__time seconds"></span>
+            <div class="wrapper__time-text">
+              <span id="secondsTxt" class="text">Seconds</span>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper__submit">
+          <p class="wrapper__text text-submit">
+            Check our event page when you wait:
+          </p>
+          <a
+            class="wrapper__btn"
+            href="https://rabota.by/resume/c645eea4ff086b5ce60039ed1f674a714f4f6d"
+            target="_blank"
+          >
+            Go to the event
+            <div class="arrow"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="modal" class="modal-wrapper">
+      <div class="container">
+        <div id="modalForm" class="modal-wrapper__form">
+          <div class="modal-wrapper__btn btn-up closeBtn"></div>
+          <h3 id="titleModal" class="modal-wrapper__title"></h3>
+          <p id="textModal" class="modal-wrapper__text"></p>
+          <button class="modal-wrapper__btn btn-down closeBtn">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <form id="form" class="footer__form">
+          <input
+            class="footer__input"
+            type="text"
+            name="email"
+            id="formEmail"
+            placeholder="Enter your Email and get notified"
+          />
+          <button class="footer__input-btn"><div class="arrow"></div></button>
+        </form>
+      </div>
+    </footer>
+    <script src="sc/timer_script.js" defer></script>
+    <script src="sc/sendingData.js"></script>
+  </body>
+</html>
